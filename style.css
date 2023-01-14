@@ -8,4 +8,13 @@ h1{
 
     color: #ff0000;
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label{
+    display: block;
+}
+
+input[type="text"], input[type="password"], select, textarea {
+    margin-bottom: 20px;
 }

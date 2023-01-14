@@ -11,55 +11,60 @@
 
         </style-->
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <h1>
             Formularz zapisow
         </h1>
+    
         <p>Aby zapisac sie na [x] musisz wyelnic ponizszy formularz</p>
 
-        <h2>Jak wypelnic formularz?</h2>
+        <h2 
+            style="color: red; margin: 25px;border: 1px solid; " >Jak wypelnic formularz?</h2>
 
         <form action="" method="post">
             <label for="formaimie" >Imię</label>
-            <input id="formaimie" type="text" name="imie">
-            <br>
+            <input id="formaimie" type="text" name="imie" value="Adam">
+            
 
             <label for="formanazwisko">Nazwisko</label>
             <input id="formanazwisko" type="text" name="imie">
-            <br>
+            
 
-            <label for="formaklase">Klasa</label>
+            <label for="formaklase">Klasa</label> 
             <select id="formaklase" title="klasa" name="klasa">
                 <option value="a">Kalsa A</option>
                 <option value="b">Kalsa B</option>
                 <option value="c">Kalsa C</option>
                 <option value="d">Kalsa D</option>
             </select>
-            <br>
+            
 
 
             <label for="formakomentarz">Komentarz</label>
             <textarea id="formakomentarz" title="komentarze" name="komentarze">Dodaj swój komentarz</textarea>
-            <br>
+            
 
             <label for="formahaslo">Haslo</label>
             <input id="formahaslo" type="password" name="password">
-            <br>
+            
 
             <label for="formak">Kobieta</label>
             <input id="formak" type="radio" value="K" name="plec">
-            <br>
+            
             <label for="formam">Mężczyzna</label>
             <input id="formam" type="radio" value="M" name="plec">
-            <br>
+            
 
             <label for="forman">Binarny</label>
             <input id="forman" type="radio" name="plec2" value="n">
-            <br>
-            <labek for="formai">I</labek>
+            
+            <label for="formai">I</label>
             <input id="formai" type="radio" name="plec2" value="i">
-            <br>
+            
             
             
             <label for="formabilet">darmowy bilet</label>
