@@ -45,8 +45,22 @@ input:hover , select:hover, textarea:hover {
     background: #faa;
 }
 
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
 tr {
-    background-color: rgb(53, 158, 228);
+    background-color: rgb(113, 190, 241);
+    border-bottom: 1px solid black;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(54, 133, 185);
+    border-bottom: 1px solid black;
+    
 }
 
 tr:hover {
@@ -54,5 +68,35 @@ tr:hover {
 }
 
 th {
-    background-color:rgba(46, 194, 120, 0.8);
+    background-color:rgba(71, 202, 136, 0.8);
+}
+
+td {
+    border-left: 1px solid black;
+}
+
+
+ol[class="linki"]{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ol[class="linki"] > li {
+    display: inline;
+}
+
+li > a {
+    text-decoration: none;
+    color:rgb(38, 139, 69);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color:rgb(224, 132, 147);
+    color: #fff;
+}
+
+ul[class="linki"] {
+    display: none;
 }
